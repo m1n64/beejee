@@ -1,0 +1,25 @@
+/*Material Design Bootstrap*/
+@import "mdb-ui-kit/src/scss/mdb.free";
+@import "toastr/toastr";
+@import "variables";
+
+/*body {
+  background-color: ;
+}*/
+
+.main-view {
+  margin-top: 30px;
+}
+.card-block-margin {
+  @extend %margin-bottom-main;
+}
+
+.form-wrapper {
+  & > div.form-outline {
+    @extend %margin-bottom-main;
+  }
+}
+
+.sort-block {
+  float: right;
+}

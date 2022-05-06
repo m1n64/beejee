@@ -1,0 +1,12 @@
+{
+    "name": "beejee/app",
+    "autoload": {
+        "psr-4": {
+            "Beejee\\App\\": "app/"
+        }
+    },
+    "require": {
+        "rakit/validation": "^1.4",
+      "ext-json": "*"
+    }
+}
